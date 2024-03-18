@@ -1,0 +1,237 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conveyor</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="test task conveyor">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+</head>
+
+<body>
+  <div class="root">
+    <section class="section-main">
+      <div class="container">
+        <div class="breadcrumb">
+          <a class="breadcrumb__home" href="/">Home</a>
+          <div class="breadcrumb__divider"></div>
+          <a class="breadcrumb__chain" href="/">Conveyors</a>
+          <div class="breadcrumb__divider"></div>
+          <div class="breadcrumb__current">Incline & Decline Conveyors</div>
+        </div>
+        <div class="product">
+          <div>
+            <h2 class="title-mobile">Incline & Decline Conveyors</h2>
+            <div class="slider">
+              <div class="slider-main">
+                <div class="slides">
+                  <div class="slide">
+                    <img src="./img/slide-1.png" alt="slide-1">
+                    <div class="text hide-mobile">Picture shows conveyor with optional structures amd features</div>
+                  </div>
+                  <div class="slide">
+                    <img src="./img/slide-2.png" alt="slide-2">
+                  </div>
+                  <div class="slide">
+                    <img src="./img/slide-3.png" alt="slide-3">
+                  </div>
+                  <div class="slide">
+                    <img src="./img/slide-4.png" alt="slide-4">
+                  </div>
+                  <div class="slide">
+                    <img src="./img/slide-5.png" alt="slide-5">
+                  </div>
+                  <div class="slide">
+                    <img src="./img/slide-2.png" alt="slide-6">
+                  </div>
+                  <div class="slide">
+                    <img src="./img/slide-5.png" alt="slide-7">
+                  </div>
+                  <div class="slide">
+                    <img src="./img/slide-3.png" alt="slide-8">
+                  </div>
+                  <div class="slide">
+                    <img src="./img/slide-4.png" alt="slide-9">
+                  </div>
+                </div>
+                <div class="slide-number hide-mobile"><span class="current">1</span>/<span class="total">6</span></div>
+                <button class="button-default slide-open hide-mobile"><img src="./img/expand.svg" alt="slide-open" ></button>
+                <div class="slider-main__buttons hide-mobile">
+                  <button class="button-default prev"><img src="./img/arrow-left.svg" alt="arrow-prev"></button>
+                  <button class="button-default next"><img src="./img/arrow-left.svg" alt="arrow-prev"></button>
+                </div>
+
+              </div>
+              <div class="slider-navigator">
+                <button class="button-default prev hide-mobile"><img src="./img/arrow-left.svg" alt="arrow-prev"></button>
+                <div class="slider-navigator-track">
+                  <div class="slides">
+
+                  </div>
+                </div>
+                <button class="button-default next hide-mobile"><img src="./img/arrow-left.svg" alt="arrow-prev"></button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2 class="title-desktop">Incline & Decline Conveyors</h2>
+            <form id="orderForm" class="product-form">
+              <div class="form-options">
+                <div class="form-section">
+                  <h3 class="form-caption">Conveyor Belt Width, in<span class="tooltip" data-tooltip="Flexible gravity roller conveyors are ideal for maneuvering into places that are not suited for conventional conveyor systems."><img  src="./img/info_circle.svg" alt="info-circle"></span></h3>
+                  <div class="radio-tabs">
+                    <input type="radio" id="beltWidth1" name="beltWidth" value="10" checked>
+                    <label for="beltWidth1" class="radio-tabs__tab">10”</label>
+
+                    <input type="radio" id="beltWidth2" name="beltWidth" value="18">
+                    <label for="beltWidth2" class="radio-tabs__tab">18”</label>
+
+                    <input type="radio" id="beltWidth3" name="beltWidth" value="24">
+                    <label for="beltWidth3" class="radio-tabs__tab">24”</label>
+
+                    <input type="radio" id="beltWidth4" name="beltWidth" value="30">
+                    <label for="beltWidth4" class="radio-tabs__tab">30”</label>
+
+                    <input type="radio" id="beltWidth5" name="beltWidth" value="36">
+                    <label for="beltWidth5" class="radio-tabs__tab">36”</label>
+
+                    <input type="radio" id="beltWidth6" name="beltWidth" value="42">
+                    <label for="beltWidth6" class="radio-tabs__tab">42”</label>
+
+                    <input type="radio" id="beltWidth7" name="beltWidth" value="48">
+                    <label for="beltWidth7" class="radio-tabs__tab">48”</label>
+
+                    <input type="radio" id="beltWidth8" name="beltWidth" value="54">
+                    <label for="beltWidth8" class="radio-tabs__tab">54”</label>
+
+                    <input type="radio" id="beltWidth9" name="beltWidth" value="custom">
+                    <label for="beltWidth9" class="radio-tabs__tab radio-tabs__tab_custom dropdown">custom</label>
+                    <div class="dropdown-content flex-grow">
+                      <div class="arrow-input js-arrow-input">
+                        <button class="button-default arrow-input__arrow_left"><img src="./img/arrow-left.svg" alt="arrow-left"></button>
+                        <div class="arrow-input__input"><span id="beltWidthCustom">1</span>”</div>
+                        <button class="button-default arrow-input__arrow_right"><img src="./img/arrow-left.svg" alt="arrow-right"></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-section">
+                  <h3 class="form-caption">Bed Section Length, in<span class="tooltip" data-tooltip="Flexible gravity roller conveyors are ideal for maneuvering into places that are not suited for conventional conveyor systems."><img src="./img/info_circle.svg" alt="info-circle"></span></h3>
+                  <div class="arrow-input js-arrow-input">
+                    <button class="button-default arrow-input__arrow_left"><img src="./img/arrow-left.svg" alt="arrow-left"></button>
+                    <div class="arrow-input__input"><span id="bedSectionLength">10</span>”</div>
+                    <button class="button-default arrow-input__arrow_right"><img src="./img/arrow-left.svg" alt="arrow-right"></button>
+                  </div>
+                </div>
+                <div class="hide-desktop">
+                  <h3 class="form-caption">Additional options<span class="tooltip" data-tooltip="Flexible gravity roller conveyors are ideal for maneuvering into places that are not suited for conventional conveyor systems."><img src="./img/info_circle.svg" alt="info-circle"></span></h3>
+                  <div class="js-dropdown">
+                    <div class="js-dropdown__trigger"><span>Select options</span><img class="js-dropdown__arrow" src="./img/arrow-left.svg" alt="arrow-down"></div>
+                    <div class="js-dropdown__drop">
+                      <div class="js-dropdown__content">
+                        <div class="additional-options" id="additionalOptionsMobile">
+                          <input class="checkbox-input-hidden" id="additionalOptionsMobile1" type="checkbox" name="additionalOptionsMobile[]" value="feeder">
+                          <label class="checkbox-label" for="additionalOptionsMobile1">
+                            <span class="checkbox-input"></span> Chain Driven Feeder
+                          </label>
+                          <input class="checkbox-input-hidden" id="additionalOptionsMobile2" type="checkbox" name="additionalOptionsMobile[]" value="structures">
+                          <label class="checkbox-label" for="additionalOptionsMobile2">
+                            <span class="checkbox-input"></span> Additional Support Structures
+                          </label>
+                          <input class="checkbox-input-hidden" id="additionalOptionsMobile3" type="checkbox" name="additionalOptionsMobile[]" value="braces">
+                          <label class="checkbox-label" for="additionalOptionsMobile3">
+                            <span class="checkbox-input"></span> Knee Braces
+                          </label>
+                          <input class="checkbox-input-hidden" id="additionalOptionsMobile4" type="checkbox" name="additionalOptionsMobile[]" value="support">
+                          <label class="checkbox-label" for="additionalOptionsMobile4">
+                            <span class="checkbox-input"></span> Enhanced support
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="additional-options hide-mobile" id="additionalOptionsDesktop">
+                  <input class="checkbox-input-hidden" id="additionalOptionsDesktop1" type="checkbox" name="additionalOptionsDesktop[]" value="feeder">
+                  <label class="checkbox-label" for="additionalOptionsDesktop1">
+                    <span class="checkbox-input"></span> Chain Driven Feeder <span class="tooltip" data-tooltip="Flexible gravity roller conveyors are ideal for maneuvering into places that are not suited for conventional conveyor systems."><img src="./img/info_circle.svg" alt="info-circle"></span>
+                  </label>
+                  <input class="checkbox-input-hidden" id="additionalOptionsDesktop2" type="checkbox" name="additionalOptionsDesktop[]" value="structures">
+                  <label class="checkbox-label" for="additionalOptionsDesktop2">
+                    <span class="checkbox-input"></span> Additional Support Structures <span class="tooltip" data-tooltip="Flexible gravity roller conveyors are ideal for maneuvering into places that are not suited for conventional conveyor systems."><img src="./img/info_circle.svg" alt="info-circle"></span>
+                  </label>
+                  <input class="checkbox-input-hidden" id="additionalOptionsDesktop3" type="checkbox" name="additionalOptionsDesktop[]" value="braces">
+                  <label class="checkbox-label" for="additionalOptionsDesktop3">
+                    <span class="checkbox-input"></span> Knee Braces <span class="tooltip" data-tooltip="Flexible gravity roller conveyors are ideal for maneuvering into places that are not suited for conventional conveyor systems."><img src="./img/info_circle.svg" alt="info-circle"></span>
+                  </label>
+                  <input class="checkbox-input-hidden" id="additionalOptionsDesktop4" type="checkbox" name="additionalOptionsDesktop[]" value="support">
+                  <label class="checkbox-label" for="additionalOptionsDesktop4">
+                    <span class="checkbox-input"></span> Enhanced support <span class="tooltip" data-tooltip="Flexible gravity roller conveyors ... is all you need!"><img src="./img/info_circle.svg" alt="info-circle"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="form-order">
+                <div class="form-special">
+                  <div class="form-sku">SKU: <span>WMD-2446F-GRYI</span></div>
+                  <div class="form-aux">
+                    <button class="upon-request"><img src="./img/check.svg" alt="check-mark">upon request</button>
+                    <div class="rating">
+                      <div class="rating__rate">
+                        <div class="rating__stars">
+                          <img src="./img/star.svg" alt="rating-star">
+                          <img src="./img/star.svg" alt="rating-star">
+                          <img src="./img/star.svg" alt="rating-star">
+                          <img src="./img/star.svg" alt="rating-star">
+                          <img src="./img/star.svg" alt="rating-star">
+                        </div>
+                        <div class="rating__count">(<span>20</span>)</div>
+                      </div>
+                      <a class="rating__link" href="/"><span class="hide-mobile">read</span> <img src="./img/arrow-left.svg"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-request">
+                  <div>
+                    <div class="form-price">from<span class="price">$22360</span><span>ea</span><span class="price">*</span> </div>
+                    <div class="footnote hide-desktop">*Final price is defined after a consultation with our specialist due to conveyor specifics of use.</div>
+                  </div>
+                  <div>
+                    <div class="controlled-input js-controlled-input">
+                      <button class="button-default controlled-input__decrement"><img src="./img/minus.svg" alt="arrow-left"></button>
+                      <input class="controlled-input__input" id="amount" value="10">
+                      <button class="button-default controlled-input__increment"><img src="./img/plus.svg" alt="arrow-right"></button>
+                    </div>
+                  </div>
+                  <button class="form-submit"><img src="./img/flag.svg" alt="flag">Request</button>
+                  <div class="footnote hide-mobile">*Final price is defined after a consultation with our specialist due to conveyor specifics of use.</div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="modal" class="modal">
+      <div class="modal__content">
+        <div class="modal__header">
+          <h2 class="modal__title">Welcome!</h2>
+          <button class="button-default modal__close">
+            X
+          </button>
+        </div>
+        <div class="modal__body">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+  <script src="./js/slider.js"></script>
+
+</body>
+
+</html>
